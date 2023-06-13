@@ -1,0 +1,64 @@
+/* The Modal (background) */
+  
+   /* The Close Button */
+  .close {    
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    background: red;
+    border-radius: 50%;
+    line-height: normal;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    transform: translateY(-50%);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #affordable-props {
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+
+#affordable-modal, 
+#luxurious-modal,
+#premium-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    z-index: 3;    
+  }
+.open {
+    position: relative;
+}
+.open:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.7);;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}

@@ -1,0 +1,20 @@
+.single-item .slick-prev {
+  left: 20px;
+  z-index: 1;
+}
+.single-item .slick-next {
+  right: 20px;
+}
+.slick-slide img {
+  margin: 0 auto;
+}
+.single-item .slick-list {
+  height: 360px;
+}
+.single-item .slick-prev:before, .single-item .slick-next:before { color:  #000; font-size: 25px;}
+@media only screen and (min-width: 768px) {
+  .single-item .slick-list {
+    height: 550px;
+  }
+}
+
