@@ -111,6 +111,13 @@ li {
 .form-group {
   position: relative;
 }
+#banner-wrapper label.error {
+  color: pink;
+}
+#banner-wrapper .form-group input.error,
+#banner-wrapper .form-group select.error {
+  border: 1px solid pink;
+}
 label.error {
   color: red;
   font-size: 12px;
@@ -189,6 +196,8 @@ input:focus {
 }
 .product-slider .slider-slide img {
   width: 100%;  
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .visited {
   position: absolute;
@@ -207,6 +216,8 @@ input:focus {
   flex-direction: column;
   box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.1);
   gap: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .product-slider .slider-slide .details .action {
   display: flex;
