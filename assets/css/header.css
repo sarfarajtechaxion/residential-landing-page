@@ -90,72 +90,9 @@
   }
   .cta a {
     padding: 10px 25px;
-}
-  @keyframes icnBubble {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    10% {
-      -webkit-transform: rotate(-10deg);
-      transform: rotate(-10deg);
-    }
-    20% {
-      -webkit-transform: rotate(10deg);
-      transform: rotate(10deg);
-    }
-    40% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    60% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    80% {
-      -webkit-transform: rotate(-10deg);
-      transform: rotate(-10deg);
-    }
-    100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  }
-  
-  /* icnJumping anim */
-  @-webkit-keyframes icnJumping {
-    0% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    10% {
-      -webkit-transform: translateY(-10px);
-      transform: translateY(-10px);
-    }
-    20% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      /* -webkit-transform: translateY(-10px) scaleX(-1);
-      transform: translateY(-10px) scaleX(-1); */
-    }
-    60% {
-      /* -webkit-transform: translateY(0) scaleX(1);
-      transform: translateY(0) scaleX(1); */
-    }
-    80% {
-      -webkit-transform: translateY(-10px);
-      transform: translateY(-10px);
-    }
-    100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  }
+  }  
 }
 @media only screen and (min-width: 1024px) {
-  
   .header-contact {
     font-size: 13px;
   }
@@ -164,5 +101,68 @@
   }
   .header-contact .icon {
     padding-right: 15px;
+  }
+}
+
+@keyframes icnBubble {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  20% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  40% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  80% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+/* icnJumping anim */
+@keyframes icnJumping {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    /* -webkit-transform: translateY(-10px) scaleX(-1);
+    transform: translateY(-10px) scaleX(-1); */
+  }
+  60% {
+    /* -webkit-transform: translateY(0) scaleX(1);
+    transform: translateY(0) scaleX(1); */
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
