@@ -21,7 +21,7 @@
 }
 
 .logo img {
-  width: 160px;
+  width: 140px;
 }
 
 .contact-info a {
@@ -40,34 +40,45 @@
   height: 15px;
   object-fit: contain;
 }
-
 .header-contact {
-    display: none;
-}
-
-.header-contact li {
+  font-size: 11px;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
-.header-contact li div {
-  display: flex;
-  flex-direction: column;
+.header-contact .icon img {
+  width: 20px;
 }
+.header-contact li {
+  margin-right: 15px;
+}
+.header-contact li .descr {
+    display: none;
+}
+.cta a {
+  padding: 10px;
+}
+
 @media only screen and (min-width: 768px) {
-  .header-contact .icon img {
-    width: 20px;
+  .logo img {
+    width: 160px;
   }
-  .header-contact {
-    font-size: 11px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  .header-contact .icon img {
+    width: 30px;
   }
   .header-contact .icon {
     padding-right: 10px;
   }
   .header-contact li {
-    margin-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .header-contact li .descr  {
+    display: flex;
+  }
+  .header-contact li div {
+    display: flex;
+    flex-direction: column;
   }
   .header-contact li:hover .icnBubble {
     animation: icnBubble 0.7s ease-in-out;
@@ -77,6 +88,9 @@
     animation: icnJumping 1.5s ease-in-out;
     animation-iteration-count: infinite;
   }
+  .cta a {
+    padding: 10px 25px;
+}
   @keyframes icnBubble {
     0% {
       -webkit-transform: rotate(0deg);
@@ -141,9 +155,7 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  .header-contact .icon img {
-    width: 30px;
-  }
+  
   .header-contact {
     font-size: 13px;
   }

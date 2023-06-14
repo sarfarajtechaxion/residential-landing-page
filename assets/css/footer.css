@@ -1,4 +1,4 @@
-ul {
+footer ul {
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -7,6 +7,6 @@ ul {
     font-size: 12px;
 }
 
-ul li a {
+footer ul li a {
     text-decoration: underline;
 }
