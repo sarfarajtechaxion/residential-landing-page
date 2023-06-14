@@ -62,10 +62,7 @@
 @media only screen and (min-width: 768px) {
   .logo img {
     width: 160px;
-  }
-  .header-contact .icon img {
-    width: 30px;
-  }
+  }  
   .header-contact .icon {
     padding-right: 10px;
   }
