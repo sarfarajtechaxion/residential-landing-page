@@ -32,7 +32,8 @@
 
 
 
-#affordable-modal, 
+#properties-modal,
+#affordable-modal,
 #luxurious-modal,
 #premium-modal {
     display: none;
