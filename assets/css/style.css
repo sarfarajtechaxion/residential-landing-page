@@ -244,7 +244,7 @@ input:focus {
   border-top: 16px solid transparent;
 }
 .visited:hover {
-  background-color: orange;
+  background-color: #43cb83;
   color: #fff;
 }
 .product-slider .slider-slide .details {
