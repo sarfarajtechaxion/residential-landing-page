@@ -55,6 +55,9 @@
 .header-contact li .descr {
     display: none;
 }
+.header-contact li .descr a:hover {
+  color: red;
+}
 .cta a {
   padding: 10px;
 }
