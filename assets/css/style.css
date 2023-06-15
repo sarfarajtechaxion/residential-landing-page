@@ -12,11 +12,15 @@ a {
   color: #000;
 }
 a:hover {
-  color: #ccc;
+  color: #f2be22;
 }
-section { padding: 25px 0; }
-@media only screen and (min-width: 768px) { 
-  section { padding: 40px 0; } 
+section {
+  padding: 25px 0;
+}
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
 }
 .container {
   max-width: 1640px;
@@ -58,14 +62,14 @@ li {
 #banner-wrapper {
   position: absolute;
   top: 50%;
-  transform: translate(-38%,10%);
+  transform: translate(-38%, 10%);
   right: 0;
 }
 .banner .form {
   max-width: 400px;
   width: 100%;
   padding: 20px;
-  box-shadow: 0px 3px 10px 2px #fff;
+  box-shadow:0px 3px 20px 10px #fff;
   /* background: #0a857a; rgba(255, 255, 255, 0.5); */
   background: #702963e6;
   border-radius: 5px;
@@ -93,18 +97,25 @@ li {
   margin: 0 auto;
   display: block;
   cursor: pointer;
-  background: #000;
+  background: #43cb83;
   color: #fff;
   border: 1px solid transparent;
   border-radius: 5px;
 }
 .btn-primary:hover {
   background-color: #fff;
-  border: 1px solid #000;
-  color: #000;
+  border: 1px solid #43cb83;
+  color: #43cb83;
 }
 .green {
-  background-color: green;
+  background-color: #43cb83;
+}
+.yellow {
+  background-color: #f2be22;
+}
+.yellow:hover {
+  color: #f2be22;
+  border: 1px solid #f2be22;
 }
 .form-group {
   position: relative;
@@ -155,10 +166,10 @@ input:focus {
   }
   #banner-wrapper {
     position: unset;
-    transform:translate(0)
+    transform: translate(0);
   }
   .banner-wrapper .form {
-    max-width: 350px;    
+    max-width: 350px;
     margin: 0 auto;
   }
   .banner-wrapper .form h2 {
@@ -169,8 +180,7 @@ input:focus {
     padding: 5px;
   }
 }
-@media only screen and (max-width: 1024px) {  
-  
+@media only screen and (max-width: 1024px) {
 }
 
 /**** box ****/
@@ -211,20 +221,26 @@ input:focus {
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  border: 2px solid red;
+  border-bottom: 0;
 }
 .visited {
   position: absolute;
   top: 0;
   right: 10px;
-  background: #702963e6;
+  background: #f2be22;
   color: #fff;
   padding: 5px 10px;
   text-transform: capitalize;
 }
+.visited:hover {
+  background-color: orange;
+  color: #fff;
+}
 .product-slider .slider-slide .details {
   display: flex;
   padding: 10px;
-  border: 1px solid transparent;
+  border: 2px solid red;
   border-top: 0;
   flex-direction: column;
   box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.1);
@@ -232,18 +248,29 @@ input:focus {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.product-slider .slider-slide .details p {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.product-slider .slider-slide .price {
+  text-align: center;
+}
+.product-slider .slider-slide .price span {
+  color: red;
+}
 .product-slider .slider-slide .details .action {
   display: flex;
   margin-top: 10px;
 }
-/* .product-slider .slider-slide:hover img {
-  transform: scale(1.01);
-} */
-.product-slider .slider-slide:hover .details {
-  border: 1px solid green;
-  border-top: 0;
-  transition: all 0.5s ease-out 0s;
+
+.product-slider .slider-slide:hover .details {  
+  border-top: 0;  
 }
 .action .btn-primary {
-  padding: 5px 10px;
+  padding: 8px;
 }
