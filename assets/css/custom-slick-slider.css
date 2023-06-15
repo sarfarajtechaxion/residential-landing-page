@@ -4,8 +4,8 @@
 .single-item .slick-list { height: 360px; }
 .single-item .slick-prev:before, .single-item .slick-next:before { color:  #000; font-size: 25px;}
 .slick-dots li button { padding: 0; }
-.slick-dots li button:before { font-size: 14px; color: #06067cde;width: auto; height: auto;opacity: 1;}
-.slick-dots li.slick-active button:before { color:green; }
+.slick-dots li button:before { font-size: 14px; color: #702963e6;width: auto; height: auto;opacity: 1;}
+.slick-dots li.slick-active button:before { color:orange; }
 @media only screen and (min-width: 768px) {
   .single-item .slick-list {
     height: 550px;
