@@ -38,6 +38,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  font-weight: 600;
 }
 .header-contact .icon img {
   width: 20px;
@@ -49,12 +50,11 @@
     display: none;
 }
 .header-contact li .descr a:hover {
-  color: red;
+  color: #43cb83;
 }
-.cta a {
-  padding: 10px;
+.header-contact li:last-child {
+  margin-right: 0;
 }
-
 @media only screen and (min-width: 768px) {
   .logo img {
     width: 160px;
@@ -81,9 +81,6 @@
     animation: icnJumping 1.5s ease-in-out;
     animation-iteration-count: infinite;
   }
-  .cta a {
-    padding: 10px 25px;
-  }  
 }
 @media only screen and (min-width: 1024px) {
   .header-contact {
