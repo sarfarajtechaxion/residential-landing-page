@@ -269,6 +269,9 @@ input:focus {
   background: #fff;
   border-radius: 50%;
 }
+.product-slider .slider-slide a img {
+  height: 250px;
+}
 .product-slider .slider-slide .details p {
   width: 100%;
   overflow: hidden;
