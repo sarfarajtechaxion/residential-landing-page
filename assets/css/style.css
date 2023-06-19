@@ -257,6 +257,15 @@ input:focus {
   gap: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  position: relative;
+}
+.product-slider .slider-slide .rera-logo {
+  position: absolute;
+  width: 70px;
+  border: 0;
+  bottom: 5px;
+  right: 0px;
+  z-index: -1;
 }
 .product-slider .slider-slide .details p {
   width: 100%;
@@ -284,3 +293,4 @@ input:focus {
 .action .btn-primary {
   padding: 8px;
 }
+

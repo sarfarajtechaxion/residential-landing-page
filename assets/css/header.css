@@ -13,13 +13,6 @@
   align-items: center;
 }
 
-.top-links {
-  background-color: #f2f2f2;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-}
-
 .logo img {
   width: 140px;
 }

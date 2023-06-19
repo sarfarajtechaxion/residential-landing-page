@@ -1,12 +1,29 @@
 footer ul {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    align-items: center;
-    gap: 20px;
-    font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
 }
 
 footer ul li a {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.top-links {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.top-links .wrapper {
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 480px) {
+    .top-links .wrapper {
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }
