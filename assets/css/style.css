@@ -221,7 +221,7 @@ input:focus {
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-bottom: 0;
 }
 .visited {
@@ -250,10 +250,11 @@ input:focus {
 .product-slider .slider-slide .details {
   display: flex;
   padding: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-top: 0;
   flex-direction: column;
-  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   gap: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
