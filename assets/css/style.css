@@ -259,6 +259,7 @@ input:focus {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   position: relative;
+  user-select: text;
 }
 .product-slider .slider-slide .rera-logo {
   position: absolute;
