@@ -23,7 +23,7 @@ section {
   }
 }
 .container {
-  max-width: 1640px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -203,7 +203,7 @@ input:focus {
 }
 .product-slider .slider-slide {
   padding:  15px 10px 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   overflow: hidden;
   transition: all 0.5s ease-out 0s;
   position: relative;
@@ -260,6 +260,20 @@ input:focus {
   border-bottom-left-radius: 5px;
   position: relative;
   user-select: text;
+}
+.product-slider .slider-slide figure {
+  position: relative;
+  overflow: hidden;
+}
+.product-slider .slider-slide figure img {
+  transform: scale(1);
+	transition: .3s ease-in-out;
+  z-index: 7;
+}
+.product-slider .slider-slide figure:hover img {
+  transform: scale(1.2);
+	transition: .3s ease-in-out;
+
 }
 .product-slider .slider-slide .rera-logo {
   position: absolute;
