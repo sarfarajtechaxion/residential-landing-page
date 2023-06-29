@@ -294,7 +294,7 @@ input:focus {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: justify;
 }
 .product-slider .slider-slide .price {
@@ -305,7 +305,8 @@ input:focus {
 }
 .product-slider .slider-slide .details .action {
   display: flex;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .product-slider .slider-slide:hover .details {  

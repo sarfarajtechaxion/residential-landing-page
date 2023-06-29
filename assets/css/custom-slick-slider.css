@@ -1,8 +1,10 @@
+#banner .single-item {margin-bottom: 0;}
 .single-item .slick-prev { left: 20px; z-index: 1; }
 .single-item .slick-next { right: 20px; }
 .slick-slide img { margin: 0 auto; }
 .single-item .slick-list { height: 360px; }
 .single-item .slick-prev:before, .single-item .slick-next:before { color:  #702963e6; font-size: 25px;}
+.slick-dots {bottom: 10px;}
 .slick-dots li button { padding: 0; }
 .slick-dots li button:before { font-size: 14px; color: #702963e6;width: auto; height: auto;opacity: 1;}
 .slick-dots li.slick-active button:before { color:orange; }
