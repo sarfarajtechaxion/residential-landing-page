@@ -30,8 +30,7 @@ $('.close').click(function() {
 // Open Modal Popup
 $(".prop_interest").click(function(){
     $('body').addClass('open');
-    var propType = $(this).attr('data-type');
-    console.log(propType);
+    var propType = $(this).attr('data-type');    
     $(".Property_type_title").text(propType+" Properties");
     $(".Property_type").val(propType);    
     $('#properties-modal').show();
