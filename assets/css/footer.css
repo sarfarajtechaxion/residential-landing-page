@@ -36,6 +36,13 @@ footer {
   display: flex;
   align-items: center;
 }
+.column.column-1, .column.column-2, .column.column-3 { width: 100%; }
+
+.column-3 iframe {
+  width: 100%;
+  height: 330px;
+  max-width: 100%;
+}
 .social-links {
   display: flex;
 }
@@ -57,10 +64,23 @@ footer {
   .column {
     border: 0;
     padding-bottom: 0;
+    margin-bottom: 30px;
   }
+  .column.column-1, .column.column-2 { width: 50%; }
   .footer-container h3 {
     padding: 10px 0 40px;
+  }  
+}
+
+@media only screen and (min-width:1024px) {
+  .column.column-1, .column.column-2 { width: 29%; }
+  .column.column-3 { width: 40%; }
+  .column-3 iframe {   
+    max-width: 500px;
   }
+}
+@media only screen and (min-width:1280px) {
+  .column-1,.column-2,.column-3 { width: 33.33%; }
 }
 @media only screen and (min-width:1200px) {
     .rera {
