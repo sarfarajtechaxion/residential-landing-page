@@ -1,4 +1,5 @@
 #banner .single-item {margin-bottom: 0;}
+#banner .slick-dots { bottom: 5px; }
 .single-item .slick-prev { left: 20px; z-index: 1; }
 .single-item .slick-next { right: 20px; }
 .slick-slide img { margin: 0 auto; }
@@ -8,11 +9,12 @@
 .slick-dots li button { padding: 0; }
 .slick-dots li button:before { font-size: 14px; color: #702963e6;width: auto; height: auto;opacity: 1;}
 .slick-dots li.slick-active button:before { color:orange; }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width:991px) {
   .single-item .slick-list {
-    height: 550px;
+    height: 445px;
   }
 }
+
 .product-slider .slick-prev { z-index: 9; left: 0;}
 .product-slider .slick-next { z-index: 9; right: 0;}
 .product-slider .slick-prev:before, 

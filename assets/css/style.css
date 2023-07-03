@@ -52,19 +52,20 @@ li {
 }
 
 /** Banner **/
-.align-form {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  right: 0;
-  top: 0;
+#banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
 }
 #banner-wrapper {
-  position: absolute;
-  top: 50%;
-  transform: translate(-38%, 10%);
-  right: 0;
+  max-width: 370px;
+  width: 100%;
+  margin:  20px auto 0;
+} 
+#banner .single-item {
+  width: 100%;
 }
+
 .banner .form {
   max-width: 400px;
   width: 100%;
@@ -158,16 +159,6 @@ input:focus {
 }
 
 @media only screen and (max-width: 767px) {
-  .align-form {
-    position: unset;
-    margin-top: 20px;
-    transform: translateY(0px);
-    padding: 0 20px;
-  }
-  #banner-wrapper {
-    position: unset;
-    transform: translate(0);
-  }
   .banner-wrapper .form {
     max-width: 350px;
     margin: 0 auto;
@@ -180,7 +171,27 @@ input:focus {
     padding: 5px;
   }
 }
-@media only screen and (max-width: 1024px) {
+
+
+@media only screen and (min-width: 991px) {
+  #banner {
+    flex-direction: row;
+  }
+  #banner-wrapper {
+    margin: unset;
+  } 
+  #banner .single-item {
+    width: calc(100% - 390px);    
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #banner-wrapper {
+    max-width: 400px;
+    width: 100%; 
+  } 
+  #banner .single-item {
+    width: calc(100% - 420px);
+  } 
 }
 
 /**** box ****/
@@ -296,6 +307,7 @@ input:focus {
   -webkit-box-orient: vertical;
   margin-bottom: 5px;
   text-align: justify;
+  font-size: 15px;
 }
 .product-slider .slider-slide .price {
   text-align: center;
