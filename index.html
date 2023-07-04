@@ -24,7 +24,7 @@
 </head>
 <body>
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="P6dCaOxN"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="TEqip4WV"></script>
     <header>
         <div class="header-wrapper">
             <div class="container">
@@ -707,11 +707,24 @@
                     <h3>Connect With Us</h3>
                     <ul class="reviews">
                         <li>
-                            <div class="fb-like" data-href="https://www.facebook.com/kunvarjirealty/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+
+                            <!-- <div class='sk-ww-google-reviews' data-embed-id='162142'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script> -->
+                            <a  href="https://www.google.com/maps/place/Kunvarji+Realty/@22.9935875,72.4939684,17z/data=!3m1!4b1!4m6!3m5!1s0x395e83d5018aab51:0xcb6ce1826129ea86!8m2!3d22.9935826!4d72.4988393!16s%2Fg%2F11sfxwgpgn?entry=ttu">
+                                <img src="./assets/images/review/greview.jpg" class="google" alt="google review" />
+                            </a>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="https://www.facebook.com/kunvarjirealty/" data-width="00px" data-layout="" data-action="" data-size="" data-share="true"></div>
+                        </li>
+                        <li>
+                            <!-- <div class='sk-ww-linkedin-page-post' data-embed-id='162149'></div><script src='https://widgets.sociablekit.com/linkedin-page-posts/widget.js' async defer></script> -->
+                            <div class="linked-in">
+                                <iframe src="https://www.linkedin.com/pages-extensions/FollowCompany?id=14534704&counter=bottom"> </iframe>
+                            </div>
                         </li>
                         <li>
                             <a href="https://wa.me/919537028646" target="_blank">
-                                <img src="./assets/images/review/wa.png" alt="WhatsApp" />
+                                <img src="./assets/images/review/img.png" class="wa" alt="WhatsApp" />
                             </a>
                         </li>
                     </ul>
@@ -837,6 +850,13 @@
             autoplay: true,
             dots: true,
         });
+        $.ajax({
+            url: 'https://www.linkedin.com/pages-extensions/FollowCompany?id=14534704&counter=bottom',
+            type: 'GET',
+            success: function(data){
+                console.log(data);
+            }
+        })
     </script>
 </body>
 
