@@ -70,9 +70,9 @@ li {
   max-width: 400px;
   width: 100%;
   padding: 20px;
-  box-shadow:0px 3px 20px 10px #fff;
-  /* background: #0a857a; rgba(255, 255, 255, 0.5); */
-  background: #702963e6;
+  box-shadow: 0px 5px 15px 1px #28887F;
+  background: rgb(72,225,211);
+  background: linear-gradient(0deg, rgba(72,225,211,1) 4%, rgba(13,57,131,1) 50%);
   border-radius: 5px;
   color: #fff;
 }
@@ -300,13 +300,13 @@ input:focus {
   height: 250px;
 }
 .product-slider .slider-slide .details p {
-  width: 100%;
+  /* width: 100%;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; */
   margin-bottom: 5px;
-  text-align: justify;
+  /* text-align: justify; */
   font-size: 15px;
 }
 .product-slider .slider-slide .price {
