@@ -2,17 +2,32 @@
 #banner .slick-dots { bottom: 5px; }
 .single-item .slick-prev { left: 20px; z-index: 1; }
 .single-item .slick-next { right: 20px; }
-.slick-slide img { margin: 0 auto; }
-.single-item .slick-list { height: 360px; }
+.slick-slide img { margin: 0 auto;    width: 100%; }
+/* .single-item .slick-list { height: 360px; } */
 .single-item .slick-prev:before, .single-item .slick-next:before { color:  #06207A; font-size: 25px;}
 .slick-dots {bottom: 10px;}
 .slick-dots li button { padding: 0; }
 .slick-dots li button:before { font-size: 14px; color: #06207A;width: auto; height: auto;opacity: 1;}
 .slick-dots li.slick-active button:before { color:orange; }
+
+.text-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255,255,255, 0.75);
+  padding: 10px 20px;
+}
+.text-content h2{
+  margin: 0;
+}
+.text-content h3 {
+  color: #06207A;
+}
 @media only screen and (min-width:991px) {
-  .single-item .slick-list {
+  /* .single-item .slick-list {
     height: 445px;
-  }
+  } */
+  .slick-slide img { width: unset; }
 }
 
 .product-slider .slick-prev { z-index: 9; left: 0;}
