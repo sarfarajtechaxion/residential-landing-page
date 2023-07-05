@@ -15,18 +15,9 @@
   bottom: 0;
   width: 100%;
   background: rgba(255,255,255, 0.75);
-  padding: 10px 20px;
-}
-.text-content h2{
-  margin: 0;
-}
-.text-content h3 {
-  color: #06207A;
+  padding: 10px 20px 25px;
 }
 @media only screen and (min-width:991px) {
-  /* .single-item .slick-list {
-    height: 445px;
-  } */
   .slick-slide img { width: unset; }
 }
 

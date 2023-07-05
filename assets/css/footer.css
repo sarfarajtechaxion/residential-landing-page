@@ -23,7 +23,7 @@ footer {
 }
 .column-1 ul li {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 10px;
 }
 .column-1 ul li:nth-child(3) {
@@ -84,6 +84,9 @@ footer {
     border: 0;
     padding-bottom: 0;
     margin-bottom: 30px;
+  }
+  .column-1 ul li.hidden-xs {
+    display: none;
   }
   .column.column-1,.column.column-2,.column.column-3 { width: 25%; }
   .footer-container h3 {

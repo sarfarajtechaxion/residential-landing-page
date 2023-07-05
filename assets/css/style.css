@@ -129,6 +129,9 @@ li {
 .blue {
   background-color: #06207A;
 }
+.txtblue {
+ color: #06207A;
+}
 .blue:hover {
   color: #06207A;
   background-color: #fff;
@@ -316,11 +319,11 @@ input:focus {
   height: 250px;
 }
 .product-slider .slider-slide .details p {
-  /* width: 100%;
+  width: 100%;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical; */
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
   margin-bottom: 5px;
   /* text-align: justify; */
   font-size: 15px;
@@ -344,3 +347,8 @@ input:focus {
   padding: 8px;
 }
 
+@media only screen and (min-width: 768px) {
+  .product-slider .slider-slide .details p {
+    -webkit-line-clamp: 3;
+  }
+}
