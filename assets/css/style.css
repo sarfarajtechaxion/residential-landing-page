@@ -12,7 +12,7 @@ a {
   color: #000;
 }
 a:hover {
-  color: #f2be22;
+  color: #06207A;
 }
 section {
   padding: 25px 0;
@@ -104,19 +104,23 @@ li {
   border-radius: 5px;
 }
 .btn-primary:hover {
-  background-color: #fff;
+  /* background-color: #fff;
   border: 1px solid #43cb83;
-  color: #43cb83;
+  color: #43cb83; */
+  color: #06207A;
+  background-color: #fff;
+  border: 1px solid #06207A;
 }
-.green {
+/* .green {
   background-color: #43cb83;
+} */
+.blue {
+  background-color: #06207A;
 }
-.yellow {
-  background-color: #f2be22;
-}
-.yellow:hover {
-  color: #f2be22;
-  border: 1px solid #f2be22;
+.blue:hover {
+  color: #06207A;
+  background-color: #fff;
+  border: 1px solid #06207A;
 }
 .form-group {
   position: relative;
