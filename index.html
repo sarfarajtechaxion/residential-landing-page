@@ -531,7 +531,7 @@
     <!-- Gift City Slider-->
     <section id='gift-city' class="slider-section section-bg">
         <div class="container">
-            <h2>Gift City Projects</h2>
+            <h2>GIFT City Projects</h2>
             <div class="product-slider">
                 <div class="slider-slide">
                     <a href="javascript:void(0);" class="affordable-button">
@@ -917,6 +917,42 @@
                 console.log(data);
             }
         })
+    </script>
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?52769';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+            "enabled":true,
+            "chatButtonSetting":{
+                "backgroundColor":"#4DC247",
+                "ctaText":"Message Us",
+                "borderRadius":"25",
+                "marginLeft":"25",
+                "marginBottom":"10",
+                "marginRight":"20",
+                "position":"right"
+            },
+            "brandSetting":{
+                "brandName":"Kunvarji Realty",
+                "brandSubTitle":"Driven by Knowledge",
+                "brandImg":"https://kunvarjirealty.com/images/wati.webp",
+                "welcomeText":"Hi there!\nHow can I help you?",
+                "messageText":"Hello, I have a question about https://www.kunvarjirealty.com/",
+                "backgroundColor":"#055177",
+                "ctaText":"Start Chat",
+                "borderRadius":"25",
+                "autoShow":false,
+                "phoneNumber":"916359862253"
+            }
+        };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
     </script>
 </body>
 
